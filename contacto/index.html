@@ -47,19 +47,19 @@
   <div class="container">
     <div class="grid grid--2" style="gap:var(--s12);align-items:start">
       <div>
-        <form id="contact-form" novalidate>
+        <form id="contact-form" novalidate aria-describedby="form-msg">
           <div class="form-grid">
             <div class="form-group">
               <label for="f-name">Nombre y empresa *</label>
-              <input type="text" id="f-name" name="name" placeholder="Juan García — Industrias García SA" required>
+              <input type="text" id="f-name" name="name" placeholder="Juan García — Industrias García SA" required minlength="3" maxlength="120" autocomplete="name">
             </div>
             <div class="form-group">
               <label for="f-email">Email corporativo *</label>
-              <input type="email" id="f-email" name="email" placeholder="jgarcia@industriasgarcia.com" required>
+              <input type="email" id="f-email" name="email" placeholder="jgarcia@industriasgarcia.com" required maxlength="160" autocomplete="email" inputmode="email">
             </div>
             <div class="form-group">
               <label for="f-sector">Sector / operación *</label>
-              <select id="f-sector" name="sector" required>
+              <select id="f-sector" name="sector" required autocomplete="organization-title">
                 <option value="">Seleccionar…</option>
                 <option>Manufactura industrial</option>
                 <option>Distribución / importación</option>
@@ -69,7 +69,7 @@
             </div>
             <div class="form-group">
               <label for="f-problem">¿Cuál es el problema? *</label>
-              <textarea id="f-problem" name="problem" placeholder="Describílo brevemente: qué ocurre hoy, qué querés resolver, en qué escala opera tu empresa." required></textarea>
+              <textarea id="f-problem" name="problem" placeholder="Describílo brevemente: qué ocurre hoy, qué querés resolver, en qué escala opera tu empresa." required minlength="20" maxlength="2000"></textarea>
             </div>
             <div class="form-row">
               <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;font-size:1rem">Enviar consulta</button>
@@ -94,7 +94,7 @@
           </div>
           <div>
             <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--orange);margin-bottom:var(--s2)">WhatsApp</p>
-            <a href="https://wa.me/5491138230614" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600">+54 9 11 3823-0614</a>
+            <a href="https://wa.me/5491138230614" target="_blank" rel="noopener noreferrer" style="color:var(--navy);font-weight:600">+54 9 11 3823-0614</a>
           </div>
           <p style="font-size:.85rem;color:var(--text-muted)">Respondemos en 24–48 horas hábiles.</p>
         </div>
@@ -125,8 +125,8 @@
         <p class="footer__col-title">Contacto</p>
         <ul role="list">
           <li><a href="mailto:contacto@n2n.com.ar">contacto@n2n.com.ar</a></li>
-          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener">WhatsApp</a></li>
-          <li><a href="https://linkedin.com/company/n2n" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/company/node2node/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </div>
     </div>
