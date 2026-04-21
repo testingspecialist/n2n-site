@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto — N2N | N2N</title>
+<meta name="description" content="Contacto para evaluación de operaciones industriales B2B.">
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Outfit-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+  <div class="container">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="/" class="nav__logo" aria-label="N2N — Inicio">
+        <img src="/img/logo.png" alt="N2N" width="140" height="38" loading="eager" fetchpriority="high">
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menú" type="button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="/framework/como-funciona/">Framework</a></li>
+        <li><a href="/industrias/">Industrias</a></li>
+        <li><a href="/servicios/">Servicios</a></li>
+        <li><a href="/casos/">Casos</a></li>
+        <li><a href="/conocimiento/">Conocimiento</a></li>
+        <li><a href="/contacto/" aria-current="page" class="nav__cta">Contacto</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero" aria-labelledby="page-h1">
+  <div class="container">
+    <p class="hero__label">Contacto</p>
+    <h1 class="hero__h1" id="page-h1">Evaluar si vale la pena resolver el problema</h1>
+    <p class="hero__lead">No es para consultas generales. Es el punto de entrada para evaluar si existe un problema comercial estructural que podemos resolver.</p>
+  </div>
+</section>
+<section class="section bg-white">
+  <div class="container">
+    <div class="grid grid--2" style="gap:var(--s12);align-items:start">
+      <div>
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="f-name">Nombre y empresa *</label>
+              <input type="text" id="f-name" name="name" placeholder="Juan García — Industrias García SA" required>
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email corporativo *</label>
+              <input type="email" id="f-email" name="email" placeholder="jgarcia@industriasgarcia.com" required>
+            </div>
+            <div class="form-group">
+              <label for="f-sector">Sector / operación *</label>
+              <select id="f-sector" name="sector" required>
+                <option value="">Seleccionar…</option>
+                <option>Manufactura industrial</option>
+                <option>Distribución / importación</option>
+                <option>Operador logístico</option>
+                <option>Otro B2B industrial</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="f-problem">¿Cuál es el problema? *</label>
+              <textarea id="f-problem" name="problem" placeholder="Describílo brevemente: qué ocurre hoy, qué querés resolver, en qué escala opera tu empresa." required></textarea>
+            </div>
+            <div class="form-row">
+              <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;font-size:1rem">Enviar consulta</button>
+              <p id="form-msg" style="margin-top:var(--s3);font-size:.9rem"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:var(--s6)">
+        <div class="not-for">
+          <p class="not-for__title">Criterios mínimos</p>
+          <ul>
+            <li>Operación B2B que vende por volumen (no retail)</li>
+            <li>Procesos operativos definidos</li>
+            <li>El problema es estructural, no estético</li>
+          </ul>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:var(--s4)">
+          <div>
+            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--orange);margin-bottom:var(--s2)">Email directo</p>
+            <a href="mailto:contacto@n2n.com.ar" style="color:var(--navy);font-weight:600">contacto@n2n.com.ar</a>
+          </div>
+          <div>
+            <p style="font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--orange);margin-bottom:var(--s2)">WhatsApp</p>
+            <a href="https://wa.me/5491138230614" target="_blank" rel="noopener" style="color:var(--navy);font-weight:600">+54 9 11 3823-0614</a>
+          </div>
+          <p style="font-size:.85rem;color:var(--text-muted)">Respondemos en 24–48 horas hábiles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo"><img src="/img/logo-white.png" alt="N2N" width="120" height="32" loading="lazy"></a>
+        <p class="footer__about">N2N diseña sistemas digitales que filtran ruido comercial y habilitan conversaciones B2B reales para operaciones industriales que venden por volumen.</p>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Navegación</p>
+        <ul role="list">
+          <li><a href="/framework/como-funciona/">Framework</a></li>
+          <li><a href="/industrias/">Industrias</a></li>
+          <li><a href="/servicios/">Servicios</a></li>
+          <li><a href="/casos/">Casos</a></li>
+          <li><a href="/conocimiento/">Conocimiento</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <ul role="list">
+          <li><a href="mailto:contacto@n2n.com.ar">contacto@n2n.com.ar</a></li>
+          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://linkedin.com/company/n2n" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Designed by &lt;/N2N&gt; &mdash; &copy; 2026</p>
+      <div class="footer__bottom-links">
+        <a href="/legal/">Privacidad</a>
+        <a href="/legal/#cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script defer src="https://umami.n2n.com.ar/script.js" data-website-id="05b64f33-b9ae-4ffa-b068-8a2dacff6e33"></script>
+</body>
+</html>

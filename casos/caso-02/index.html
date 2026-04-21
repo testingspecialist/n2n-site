@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Caso de Estudio: Estructurar la Venta por Volumen con Arquitectura Digital | N2N</title>
+<meta name="description" content="Cómo un fabricante industrial latinoamericano reemplazó una presencia digital desestructurada con una arquitectura comercial que refleja condiciones de venta por volumen y requisitos del comprador técnico.">
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Outfit-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+  <div class="container">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="/" class="nav__logo" aria-label="N2N — Inicio">
+        <img src="/img/logo.png" alt="N2N" width="140" height="38" loading="eager" fetchpriority="high">
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menú" type="button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="/framework/como-funciona/">Framework</a></li>
+        <li><a href="/industrias/">Industrias</a></li>
+        <li><a href="/servicios/">Servicios</a></li>
+        <li><a href="/casos/" aria-current="page">Casos</a></li>
+        <li><a href="/conocimiento/">Conocimiento</a></li>
+        <li><a href="/contacto/" class="nav__cta">Contacto</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero" aria-labelledby="page-h1">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/casos/">Casos</a><span>›</span>Caso 02</p>
+    <div class="case-badge">Caso 02</div>
+    <h1 class="hero__h1" id="page-h1">Caso de Estudio: Estructurar la Venta por Volumen con Arquitectura Digital</h1>
+    <p class="hero__lead">Cómo un fabricante industrial latinoamericano reemplazó una presencia digital desestructurada con una arquitectura comercial que refleja condiciones de venta por volumen y requisitos del comprador técnico.</p>
+  </div>
+</section>
+<section class="section bg-white">
+  <div class="container">
+    <div class="prose"><p><em>Caso modelado. Detalles anónimos.</em></p>
+<h2>Contexto</h2>
+<p><strong>Operación:</strong> Fabricante industrial, líneas de producto estándar y personalizadas, solo B2B.
+<strong>Modelo de ventas:</strong> Por volumen, RFQ para personalizado, precios de catálogo para estándar.
+<strong>Problema:</strong> El sitio no diferenciaba entre productos estándar y personalizados, no tenía flujo de cotización, y los compradores técnicos no podían encontrar datos de especificación sin contactar ventas. Resultado: el equipo de ventas respondía consultas técnicas básicas que la plataforma debería resolver.</p>
+<h2>Antes: Síntomas</h2>
+<ul>
+<li>Formulario de contacto único para todos los tipos de consulta</li>
+<li>Catálogo de productos sin condiciones comerciales</li>
+<li>Documentación técnica no accesible públicamente</li>
+<li>Productos personalizados y estándar tratados de forma idéntica</li>
+<li>El equipo de ventas atendía todas las consultas, incluyendo preguntas simples de catálogo</li>
+</ul>
+<h2>Decisiones de Arquitectura</h2>
+<p>1. <strong>Enrutamiento bifurcado</strong> — catálogo estándar y RFQ personalizado son flujos separados
+2. <strong>Superficie de documentación técnica</strong> — fichas técnicas y especificaciones accesibles sin requerir contacto
+3. <strong>Páginas de producto estándar</strong> — incluyen lógica de precio por volumen, CMC y tiempo de entrega
+4. <strong>Flujo de RFQ personalizado</strong> — formulario multietapa que captura aplicación, volumen, plazo y requisitos técnicos</p>
+<h2>Cambios en la Plataforma</h2>
+<ul>
+<li>Catálogo de productos dividido en estándar (con condiciones comerciales) y personalizado (entrada de RFQ)</li>
+<li>Biblioteca de documentación agregada: fichas técnicas, certificaciones, especificaciones de material</li>
+<li>Formulario de RFQ diseñado con 7 campos de calificación</li>
+<li>Regla de enrutamiento de ventas: consultas estándar → autoservicio de catálogo; personalizado → gerente de cuenta</li>
+</ul>
+<h2>Resultados</h2>
+<ul>
+<li>Consultas de catálogo estándar resueltas mayoritariamente sin intervención de ventas</li>
+<li>Calidad del RFQ personalizado mejorada — cada envío contenía el contexto técnico requerido</li>
+<li>Confianza del comprador técnico aumentada</li>
+<li>El equipo de ventas redirigió su foco a oportunidades genuinamente complejas y de alto valor</li>
+</ul>
+<h2>La Lección Estructural</h2>
+<p>En industria latinoamericana, la confusión entre "producto estándar" y "producto a medida" es una fuente constante de ruido comercial. Separar estos flujos digitalmente produce claridad para el comprador y eficiencia para ventas.</p></div>
+    <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
+      <a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a>
+      <a href="/casos/" class="btn btn--ghost">Ver todos los casos</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo"><img src="/img/logo-white.png" alt="N2N" width="120" height="32" loading="lazy"></a>
+        <p class="footer__about">N2N diseña sistemas digitales que filtran ruido comercial y habilitan conversaciones B2B reales para operaciones industriales que venden por volumen.</p>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Navegación</p>
+        <ul role="list">
+          <li><a href="/framework/como-funciona/">Framework</a></li>
+          <li><a href="/industrias/">Industrias</a></li>
+          <li><a href="/servicios/">Servicios</a></li>
+          <li><a href="/casos/">Casos</a></li>
+          <li><a href="/conocimiento/">Conocimiento</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <ul role="list">
+          <li><a href="mailto:contacto@n2n.com.ar">contacto@n2n.com.ar</a></li>
+          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://linkedin.com/company/n2n" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Designed by &lt;/N2N&gt; &mdash; &copy; 2026</p>
+      <div class="footer__bottom-links">
+        <a href="/legal/">Privacidad</a>
+        <a href="/legal/#cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script defer src="https://umami.n2n.com.ar/script.js" data-website-id="05b64f33-b9ae-4ffa-b068-8a2dacff6e33"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Componentes de una Arquitectura Comercial Digital para Empresas Industriales B2B | N2N</title>
+<meta name="description" content="Los componentes mínimos de una arquitectura comercial digital para operaciones industriales B2B latinoamericanas: modelos de entidad, flujos de cotización, filtros de calificación e integración con ERP.">
+<link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Outfit-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+  <div class="container">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="/" class="nav__logo" aria-label="N2N — Inicio">
+        <img src="/img/logo.png" alt="N2N" width="140" height="38" loading="eager" fetchpriority="high">
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menú" type="button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="/framework/como-funciona/" aria-current="page">Framework</a></li>
+        <li><a href="/industrias/">Industrias</a></li>
+        <li><a href="/servicios/">Servicios</a></li>
+        <li><a href="/casos/">Casos</a></li>
+        <li><a href="/conocimiento/">Conocimiento</a></li>
+        <li><a href="/contacto/" class="nav__cta">Contacto</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero" aria-labelledby="page-h1">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/framework/como-funciona/">Framework</a><span>›</span>Componentes</p>
+    <p class="hero__label">Framework</p>
+    <h1 class="hero__h1" id="page-h1">Componentes de una Arquitectura Comercial Digital para Empresas Industriales B2B</h1>
+    <p class="hero__lead">Los componentes mínimos de una arquitectura comercial digital para operaciones industriales B2B latinoamericanas: modelos de entidad, flujos de cotización, filtros de calificación e integración con ERP.</p>
+    <div class="hero__actions"><a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a><a href="/framework/como-funciona/" class="btn btn--outline-white">Cómo funciona</a></div>
+  </div>
+</section>
+<section class="section bg-white">
+  <div class="container">
+    <div class="prose"><h2>El Conjunto Mínimo de Componentes</h2>
+<p>En operaciones industriales latinoamericanas, la digitalización frecuentemente se aborda como un proyecto de imagen: nuevo sitio, nuevo diseño, nuevo CMS. El resultado es una superficie digital que no refleja la operación real.</p>
+<p>Una arquitectura comercial digital funcional requiere estos componentes como mínimo:</p>
+<p><strong>Modelo de Entidad Comercial</strong>
+Definición formal de productos o servicios como objetos de datos estructurados. Cada entidad tiene atributos definidos: especificaciones técnicas, cantidad mínima de pedido (CMC), tiempos de entrega, lógica de precios por volumen, señales de disponibilidad. No descripciones en prosa.</p>
+<p><strong>Flujo de Cotización / Pedido de Precio</strong>
+Un proceso estructurado que captura el contexto comercial necesario antes de la intervención humana. Campos mínimos: volumen estimado, plazo, aplicación, punto de entrega, tipo de cuenta. En LatAm, donde la cultura comercial tiende a la llamada directa, este componente es el que más reduce ruido comercial.</p>
+<p><strong>Filtros de Calificación</strong>
+Puntos de decisión en la superficie digital que filtran demanda antes de que llegue al equipo de ventas. Los filtros pueden ser: formularios con campos obligatorios, requisitos de registro, prompts explícitos de auto-descalificación, o verificaciones de umbral de volumen.</p>
+<p><strong>Enrutamiento por Intención del Comprador</strong>
+Lógica que dirige distintos tipos de compradores por caminos distintos. Un gerente de compras que consulta por 10 toneladas sigue un camino diferente al de un particular que consulta por muestras.</p>
+<p><strong>Superficie de Documentación Técnica</strong>
+Documentación técnica accesible y estructurada: fichas técnicas, certificaciones, especificaciones de material, documentación de proceso. Organizada para búsqueda y descarga sin requerir contacto con ventas. En contextos industriales latinoamericanos, esto es frecuentemente la diferencia entre un proveedor considerado y uno descartado.</p>
+<p><strong>Puntos de Entrada por Cuenta</strong>
+Acceso con autenticación y permisos por rol. Compras ve precios; ingeniería ve especificaciones; finanzas ve facturas e historial de pagos.</p>
+<p><strong>Portal de Cuenta con Roles y Permisos</strong>
+Sistema de autenticación que define qué puede ver y hacer cada tipo de usuario. Roles mínimos: visitante anónimo, prospecto registrado, cuenta activa, administrador de cuenta.</p>
+<p><strong>Límite de Sincronización ERP/CRM</strong>
+La interfaz definida entre la plataforma y los sistemas operativos. Qué datos fluyen en qué dirección, con qué frecuencia y con qué comportamiento de fallback. En LatAm, donde los ERP locales (Tango, Bejerman, SAP B1) tienen APIs con distintas capacidades, esta definición es crítica.</p>
+<p><strong>Analítica de Calidad Comercial</strong>
+Métricas que miden la calidad de la conversación comercial, no el tráfico. Señal clave: ratio de consultas calificadas sobre consultas totales.</p></div>
+    <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
+      <a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo"><img src="/img/logo-white.png" alt="N2N" width="120" height="32" loading="lazy"></a>
+        <p class="footer__about">N2N diseña sistemas digitales que filtran ruido comercial y habilitan conversaciones B2B reales para operaciones industriales que venden por volumen.</p>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Navegación</p>
+        <ul role="list">
+          <li><a href="/framework/como-funciona/">Framework</a></li>
+          <li><a href="/industrias/">Industrias</a></li>
+          <li><a href="/servicios/">Servicios</a></li>
+          <li><a href="/casos/">Casos</a></li>
+          <li><a href="/conocimiento/">Conocimiento</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <ul role="list">
+          <li><a href="mailto:contacto@n2n.com.ar">contacto@n2n.com.ar</a></li>
+          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://linkedin.com/company/n2n" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Designed by &lt;/N2N&gt; &mdash; &copy; 2026</p>
+      <div class="footer__bottom-links">
+        <a href="/legal/">Privacidad</a>
+        <a href="/legal/#cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script defer src="https://umami.n2n.com.ar/script.js" data-website-id="05b64f33-b9ae-4ffa-b068-8a2dacff6e33"></script>
+</body>
+</html>
