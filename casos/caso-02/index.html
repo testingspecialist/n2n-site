@@ -65,46 +65,44 @@
   <div class="container">
     <p class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/casos/">Casos</a><span>›</span>Caso 02</p>
     <div class="case-badge">Caso 02</div>
-    <h1 class="hero__h1" id="page-h1">Caso de Estudio: Estructurar la Venta por Volumen con Arquitectura Digital</h1>
-    <p class="hero__lead">Cómo un fabricante industrial latinoamericano reemplazó una presencia digital desestructurada con una arquitectura comercial que refleja condiciones de venta por volumen y requisitos del comprador técnico.</p>
+    <h1 class="hero__h1" id="page-h1">Sistema de Presupuestos Comerciales para RB Limpieza</h1>
+    <p class="hero__lead">Cómo reemplazamos un proceso manual de cotización por una plataforma comercial completa en producción, con vendedores no técnicos operando desde el celular.</p>
   </div>
 </section>
 <section class="section bg-white">
   <div class="container">
-    <div class="prose"><p><em>Caso modelado. Detalles anónimos.</em></p>
-<h2>Contexto</h2>
-<p><strong>Operación:</strong> Fabricante industrial, líneas de producto estándar y personalizadas, solo B2B.
-<strong>Modelo de ventas:</strong> Por volumen, RFQ para personalizado, precios de catálogo para estándar.
-<strong>Problema:</strong> El sitio no diferenciaba entre productos estándar y personalizados, no tenía flujo de cotización, y los compradores técnicos no podían encontrar datos de especificación sin contactar ventas. Resultado: el equipo de ventas respondía consultas técnicas básicas que la plataforma debería resolver.</p>
-<h2>Antes: Síntomas</h2>
+    <div class="prose"><h2>Contexto</h2>
+<p><strong>Cliente:</strong> RB Limpieza — empresa de productos de limpieza con operación comercial activa en Buenos Aires.<br>
+<strong>El problema no era falta de tecnología.</strong> Era un proceso manual, lento y sin trazabilidad.</p>
+<h2>Antes: síntomas</h2>
 <ul>
-<li>Formulario de contacto único para todos los tipos de consulta</li>
-<li>Catálogo de productos sin condiciones comerciales</li>
-<li>Documentación técnica no accesible públicamente</li>
-<li>Productos personalizados y estándar tratados de forma idéntica</li>
-<li>El equipo de ventas atendía todas las consultas, incluyendo preguntas simples de catálogo</li>
+<li>Presupuestos armados a mano</li>
+<li>Versiones distintas por cada vendedor</li>
+<li>Catálogo desactualizado respecto al ecommerce</li>
+<li>PDFs inconsistentes</li>
+<li>Aprobaciones sin seguimiento</li>
 </ul>
-<h2>Decisiones de Arquitectura</h2>
-<p>1. <strong>Enrutamiento bifurcado</strong> — catálogo estándar y RFQ personalizado son flujos separados
-2. <strong>Superficie de documentación técnica</strong> — fichas técnicas y especificaciones accesibles sin requerir contacto
-3. <strong>Páginas de producto estándar</strong> — incluyen lógica de precio por volumen, CMC y tiempo de entrega
-4. <strong>Flujo de RFQ personalizado</strong> — formulario multietapa que captura aplicación, volumen, plazo y requisitos técnicos</p>
-<h2>Cambios en la Plataforma</h2>
+<h2>Solución</h2>
+<p>Diseñamos e implementamos desde cero el sistema de presupuestos comerciales, desplegado en producción en pocas semanas, sin detener la operación diaria. Hoy el sistema permite:</p>
 <ul>
-<li>Catálogo de productos dividido en estándar (con condiciones comerciales) y personalizado (entrada de RFQ)</li>
-<li>Biblioteca de documentación agregada: fichas técnicas, certificaciones, especificaciones de material</li>
-<li>Formulario de RFQ diseñado con 7 campos de calificación</li>
-<li>Regla de enrutamiento de ventas: consultas estándar → autoservicio de catálogo; personalizado → gerente de cuenta</li>
+<li>Generación de presupuestos con numeración y control de versiones</li>
+<li>Catálogo sincronizado automáticamente desde WooCommerce</li>
+<li>Cálculo automático de IVA y descuentos</li>
+<li>PDFs profesionales generados on-demand</li>
+<li>Workflow comercial completo: borrador → enviado → aceptado / rechazado</li>
+<li>Roles diferenciados para administración y vendedores</li>
 </ul>
+<h2>Stack</h2>
+<p>FastAPI · PostgreSQL · WooCommerce · Python — con SSL, backups automáticos diarios y operación multiusuario desde cualquier dispositivo.</p>
 <h2>Resultados</h2>
 <ul>
-<li>Consultas de catálogo estándar resueltas mayoritariamente sin intervención de ventas</li>
-<li>Calidad del RFQ personalizado mejorada — cada envío contenía el contexto técnico requerido</li>
-<li>Confianza del comprador técnico aumentada</li>
-<li>El equipo de ventas redirigió su foco a oportunidades genuinamente complejas y de alto valor</li>
+<li>Plataforma comercial completa en producción en pocas semanas</li>
+<li>Cotización digital trazable reemplazando PDFs armados en Word y cotizaciones por WhatsApp</li>
+<li>Vendedores no técnicos operando desde celular</li>
+<li>Desarrollado bajo restricciones reales de tiempo y costo</li>
 </ul>
-<h2>La Lección Estructural</h2>
-<p>En industria latinoamericana, la confusión entre "producto estándar" y "producto a medida" es una fuente constante de ruido comercial. Separar estos flujos digitalmente produce claridad para el comprador y eficiencia para ventas.</p></div>
+<h2>Por qué importa</h2>
+<p>Muchas empresas todavía cotizan por WhatsApp con PDFs armados a mano. Ese cuello de botella deja de existir cuando la cotización se vuelve infraestructura: trazable, versionada y sincronizada con el catálogo real.</p></div>
     <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
       <a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a>
       <a href="/casos/" class="btn btn--ghost">Ver todos los casos</a>

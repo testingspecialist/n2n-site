@@ -65,38 +65,33 @@
   <div class="container">
     <p class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/casos/">Casos</a><span>›</span>Caso 03</p>
     <div class="case-badge">Caso 03</div>
-    <h1 class="hero__h1" id="page-h1">Caso de Estudio: Plataforma B2B Integrada con ERP para Operaciones Industriales</h1>
-    <p class="hero__lead">Cómo un distribuidor industrial latinoamericano conectó su ERP a su superficie digital B2B para proveer catálogo en tiempo real, stock y precios específicos por cuenta a compradores registrados.</p>
+    <h1 class="hero__h1" id="page-h1">Valorización de Stock y Rendimiento de Producción: ValorFL</h1>
+    <p class="hero__lead">Cómo construimos un sistema que le dio a una distribuidora mayorista un número confiable, auditado y en tiempo real del valor de su stock — algo que antes dependía de criterio manual y planillas.</p>
   </div>
 </section>
 <section class="section bg-white">
   <div class="container">
-    <div class="prose"><p><em>Caso modelado. Detalles anónimos.</em></p>
-<h2>Contexto</h2>
-<p><strong>Operación:</strong> Distribuidor industrial con 1.200+ SKUs activos y 80+ cuentas regulares.
-<strong>ERP:</strong> SAP B1 con módulos de catálogo, stock y precios por cuenta.
-<strong>Problema:</strong> El sitio mostraba un catálogo estático mantenido manualmente, siempre desincronizado con el ERP. El equipo de ventas enviaba listas de precios manualmente por mail. Los compradores de cuenta no tenían autoservicio para consultar sus condiciones.</p>
-<h2>Decisiones de Arquitectura</h2>
-<p>1. <strong>ERP como fuente única de verdad</strong> — la plataforma lee del ERP, nunca mantiene sus propios datos de producto/precio
-2. <strong>Portal de cuenta con precios autenticados</strong> — las cuentas registradas ven sus condiciones negociadas
-3. <strong>Sincronización programada + triggers por webhook</strong> — las actualizaciones de catálogo se propagan en 15 minutos desde el cambio en ERP
-4. <strong>Catálogo público vs. autenticado</strong> — los visitantes públicos ven disponibilidad y especificaciones; los precios requieren login de cuenta</p>
-<h2>Implementación Técnica</h2>
+    <div class="prose"><h2>Contexto</h2>
+<p><strong>Cliente:</strong> Distribuidora Florida SRL.<br>
+La mayoría de las empresas industriales no sabe cuánto vale su stock. Tiene datos, tiene ERP, tiene Excel — pero no tiene un número confiable, auditado y disponible en tiempo real.</p>
+<h2>El problema real</h2>
+<p>La valorización de stock y el rendimiento de producción dependían de criterio manual y hojas de cálculo. No existía un dato formal del rendimiento por proveedor ni del valor del inventario por período, depósito y familia de producto.</p>
+<h2>Solución</h2>
+<p>Construimos ValorFL: un sistema interno de valorización de stock y análisis de rendimiento de producción, con más de 1.000 líneas de código diseñadas específicamente para la operación de una distribuidora mayorista de carnes. Resuelve tres problemas concretos:</p>
 <ul>
-<li>Puente API entre SAP B1 REST API y backend de plataforma (FastAPI)</li>
-<li>Capa de caché PostgreSQL para datos de catálogo (sincronización cada 15 minutos)</li>
-<li>Autenticación de cuenta con acceso a precios basado en roles</li>
-<li>Receptor de webhooks para eventos de quiebre de stock → flag automático de "consultar disponibilidad" en la página de producto</li>
+<li><strong>Valorización de stock:</strong> cálculo automático del PPP (Precio Promedio Ponderado) cruzando compras y stock desde el ERP, por período, depósito y familia de producto.</li>
+<li><strong>Rendimiento de producción:</strong> cruce de kg comprados por proveedor contra kg procesados por establecimiento y marca. Un número que antes no existía como dato formal.</li>
+<li><strong>Trazabilidad completa:</strong> audit log de cada operación, roles diferenciados por función y períodos con cierre auditado. Nada se pierde ni se sobreescribe sin registro.</li>
 </ul>
 <h2>Resultados</h2>
 <ul>
-<li>Eliminación de distribución manual de listas de precios a 80 cuentas</li>
-<li>Los compradores consultan disponibilidad y precios 24/7 sin contactar ventas</li>
-<li>Precisión del catálogo mejoró de ~85% a 99%+ (driven by ERP)</li>
-<li>Ciclo de reorden acortado para SKUs estándar</li>
+<li>PWA en producción, accesible desde cualquier dispositivo</li>
+<li>Exportación a Excel</li>
+<li>Reemplazo del proceso manual de planillas del área contable</li>
+<li>Sistema preparado para absorber complejidad creciente sin rehacerse</li>
 </ul>
-<h2>Relevancia para el Mercado Latinoamericano</h2>
-<p>La integración ERP-plataforma es el desafío técnico más común y más valioso en distribución industrial latinoamericana. La mayoría de los distribuidores tienen ERP funcionando bien internamente — el problema es que esa información no llega al comprador de forma estructurada. Este caso demuestra que la integración es técnicamente alcanzable con los sistemas ERP más comunes de la región.</p></div>
+<h2>Por qué importa</h2>
+<p>El valor no está en lo que hace hoy, sino en que cuando el negocio crece, el sistema crece con él. Sin rehacer, sin deuda técnica, sin depender de que alguien recuerde cómo se calculaba el mes anterior.</p></div>
     <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
       <a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a>
       <a href="/casos/" class="btn btn--ghost">Ver todos los casos</a>
