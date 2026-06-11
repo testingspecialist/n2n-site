@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panel de Finanzas y Auditoría | N2N</title>
+<meta name="description" content="PWA de consulta y auditoría de movimientos de mercadería para el área contable. Consolida romaneos con filtros, fotografías de respaldo y exportación CSV.">
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://n2n.com.ar/proyectos/panel-finanzas/">
+<meta property="og:title"       content="Panel de Finanzas y Auditoría | N2N">
+<meta property="og:description" content="PWA de consulta y auditoría de movimientos de mercadería para el área contable. Consolida romaneos con filtros, fotografías de respaldo y exportación CSV.">
+<meta property="og:image"       content="https://n2n.com.ar/img/og-n2n.png">
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Panel de Finanzas y Auditoría | N2N">
+<meta name="twitter:description" content="PWA de consulta y auditoría de movimientos de mercadería para el área contable. Consolida romaneos con filtros, fotografías de respaldo y exportación CSV.">
+<meta name="twitter:image"       content="https://n2n.com.ar/img/og-n2n.png">
+<link rel="canonical"            href="https://n2n.com.ar/proyectos/panel-finanzas/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://n2n.com.ar/"}, {"@type": "ListItem", "position": 2, "name": "Proyectos", "item": "https://n2n.com.ar/proyectos/"}, {"@type": "ListItem", "position": 3, "name": "Panel de Finanzas y Auditoría"}]}</script><link rel="icon" href="/img/favicon.ico" sizes="any">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/Outfit-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+  <div class="container">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="/" class="nav__logo" aria-label="N2N — Inicio">
+        <img src="/img/logo.png" alt="N2N" width="140" height="38" loading="eager" fetchpriority="high">
+      </a>
+      <button class="nav__toggle" id="nav-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Abrir menú" type="button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav__links" id="nav-links" role="list">
+        <li><a href="/framework/como-funciona/">Framework</a></li>
+        <li><a href="/industrias/">Industrias</a></li>
+        <li><a href="/servicios/">Servicios</a></li>
+        <li><a href="/proyectos/" aria-current="page">Proyectos</a></li>
+        <li><a href="/conocimiento/">Conocimiento</a></li>
+        <li><a href="/contacto/" class="nav__cta">Contacto</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main-content">
+
+<section class="hero" aria-labelledby="page-h1">
+  <div class="container">
+    <p class="breadcrumb"><a href="/">Inicio</a><span>›</span><a href="/proyectos/">Proyectos</a><span>›</span>Finanzas DF</p>
+    <p class="hero__label">Sistema &mdash; Distribuidora Florida SRL</p>
+    <h1 class="hero__h1" id="page-h1">Panel de Finanzas y Auditoría <span style="display:inline-block;background:rgba(0,180,80,.12);color:#0a7a3a;border:1px solid rgba(0,180,80,.3);border-radius:100px;padding:.15em .8em;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-left:.5em">Activo</span></h1>
+    <p class="hero__lead">PWA de consulta y auditoría de movimientos de mercadería para el área contable. Consolida romaneos con filtros, fotografías de respaldo y exportación CSV.</p>
+    <div class="hero__actions">
+      <a href="/contacto/" class="btn btn--primary">Hablemos →</a>
+      <a href="/proyectos/" class="btn btn--outline-white">Ver todos los proyectos</a>
+    </div>
+  </div>
+</section>
+<section class="section bg-white">
+  <div class="container">
+    <div style="margin-bottom:var(--s8);padding:var(--s5) var(--s6);background:var(--bg-section);border-radius:var(--radius);border:1px solid var(--border)">
+      <p style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--orange);margin-bottom:var(--s2)">Stack</p>
+      <p style="font-size:.92rem;color:var(--text-muted)">FastAPI · PostgreSQL · Next.js · TypeScript · JWT · Docker</p>
+      <p style="margin-top:var(--s3)"><a href="https://finanzas.distribuidoraflorida.ar" target="_blank" rel="noopener noreferrer" style="font-size:.82rem;color:var(--text-muted)">https://finanzas.distribuidoraflorida.ar</a></p>
+    </div>
+    <div class="prose"><h2>El problema</h2>
+<p>El área contable no tenía acceso directo a los movimientos de mercadería. Dependía del equipo operativo para obtener información, sin posibilidad de auditoría independiente ni exportación para conciliación.</p>
+<h2>La solución</h2>
+<p>PWA de consulta read-only con filtros por sucursal, rango de fechas y tipo de movimiento (entrada o salida). Visualiza fotografías de respaldo por operación. Exporta a CSV para conciliación contable con nombre de archivo dinámico según filtros aplicados. Paginación de 50 registros por página. Acceso restringido por rol.</p>
+<h2>Resultado operativo</h2>
+<p>El área contable audita movimientos de forma autónoma. Conciliación contable con exportación directa a CSV sin intermediación operativa.</p></div>
+    <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
+      <a href="/contacto/" class="btn btn--primary">Hablemos →</a>
+      <a href="/proyectos/" class="btn btn--ghost">← Ver todos los proyectos</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo"><img src="/img/logo-white.png" alt="N2N" width="120" height="32" loading="lazy"></a>
+        <p class="footer__about">N2N diseña sistemas digitales que filtran ruido comercial y habilitan conversaciones B2B reales para operaciones industriales que venden por volumen.</p>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Navegación</p>
+        <ul role="list">
+          <li><a href="/framework/como-funciona/">Framework</a></li>
+          <li><a href="/industrias/">Industrias</a></li>
+          <li><a href="/servicios/">Servicios</a></li>
+          <li><a href="/proyectos/">Proyectos</a></li>
+          <li><a href="/conocimiento/">Conocimiento</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">Contacto</p>
+        <ul role="list">
+          <li><a href="mailto:contacto@n2n.com.ar">contacto@n2n.com.ar</a></li>
+          <li><a href="https://wa.me/5491138230614" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/company/node2node/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>Designed by &lt;/N2N&gt; &mdash; &copy; 2026</p>
+      <div class="footer__bottom-links">
+        <a href="/legal/">Privacidad</a>
+        <a href="/legal/#cookies">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js" defer></script>
+<script defer src="https://umami.n2n.com.ar/script.js" data-website-id="05b64f33-b9ae-4ffa-b068-8a2dacff6e33"></script>
+</body>
+</html>
