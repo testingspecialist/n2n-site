@@ -1,0 +1,7 @@
+.unlighthouse/
+backups/
+public/
+*.backup.*
+build_v2.backup.*.py
+__pycache__/
+*.tar.gz
