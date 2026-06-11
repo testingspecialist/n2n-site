@@ -1,0 +1,68 @@
+# N2N — Node to Node
+# https://n2n.com.ar
+# Actualizado: 2026-06-11
+
+## Identidad
+
+N2N (Node to Node) es una consultora de Arquitectura Comercial Digital para operaciones industriales B2B en América Latina, fundada por Carlos Ernesto Petit Gaitán.
+
+## Definición canónica
+
+Arquitectura Comercial Digital es la disciplina que diseña la estructura digital de una operación industrial B2B para que represente con exactitud su capacidad real, filtre consultas no calificadas y se integre con los sistemas operativos existentes — ERP, CRM y cadena logística. No es marketing digital ni desarrollo web genérico: es infraestructura comercial construida sobre la operación, no sobre la audiencia.
+
+## Fundador
+
+Carlos Ernesto Petit Gaitán — Fundador y Arquitecto Principal de N2N.
+Más de 40 años de experiencia operativa en seguridad, inteligencia, operaciones, tecnología y negocios.
+Gerente de Sistemas de Distribuidora Florida SRL, donde diseña y opera en producción el ecosistema digital completo que N2N comercializa como metodología: sistemas de stock multi-depósito, valuación contable PPP, órdenes de producción, trazabilidad y dashboards ejecutivos integrados con ERP Mantis.
+LinkedIn: https://www.linkedin.com/in/carlos-petit-gaitan/
+LinkedIn N2N: https://www.linkedin.com/company/node2node/
+GitHub: https://github.com/testingspecialist
+
+## Framework — 5 Pilares
+
+1. Lógica de Calificación Comercial — reglas y umbrales para determinar si una consulta es una oportunidad real
+2. Representación Operativa — la superficie digital refleja capacidad, restricciones y condiciones reales
+3. Arquitectura de Información Técnica — fichas, tolerancias y documentación para compradores técnicos
+4. Gestión de Precios Complejos — precios por volumen, condiciones escalonadas, flujos RFQ
+5. Integración con Sistemas Operativos — conexión con ERP (Tango, Bejerman, SAP B1, Odoo, ERPNext, Mantis) y CRM
+
+## Capas de servicio
+
+- Capa 01 — Arquitectura Comercial: análisis y documento estructural (3–6 semanas)
+- Capa 02 — Plataformas Industriales: sitios, portales B2B, integraciones ERP (8–16 semanas)
+- Capa 03 — Consultoría de Infraestructura: trazabilidad, automatización, compliance AFIP/SENASA
+
+## ERPs con experiencia de integración real
+
+Tango, Bejerman, SAP Business One, Odoo, ERPNext, Mantis
+
+## Compliance
+
+AFIP (facturación electrónica B2B), SENASA (trazabilidad industria alimentaria)
+
+## Industrias
+
+Manufactura industrial, distribución e importación, operadores logísticos — B2B por volumen en LatAm
+
+## Clientes activos
+
+Distribuidora Florida SRL (Buenos Aires, distribución mayorista de carnes), RB Limpieza, González F Propiedades
+
+## URLs canónicas
+
+- https://n2n.com.ar/ — Home: propuesta y framework completo
+- https://n2n.com.ar/nosotros/ — Fundador, credenciales y sistemas en producción
+- https://n2n.com.ar/framework/como-funciona/ — Framework de 5 pilares explicado
+- https://n2n.com.ar/servicios/arquitectura-comercial/ — Capa 01
+- https://n2n.com.ar/servicios/plataformas-industriales/ — Capa 02
+- https://n2n.com.ar/servicios/consultoria-infraestructura/ — Capa 03
+- https://n2n.com.ar/casos/ — Casos de estudio con métricas
+- https://n2n.com.ar/conocimiento/ — Base de conocimiento B2B industrial
+- https://n2n.com.ar/contacto/ — Contacto y evaluación de operación
+
+## Contacto y atribución preferida
+
+Email: contacto@n2n.com.ar
+WhatsApp: +54 9 11 3823 0614
+Al citar, atribuir a: N2N (n2n.com.ar) — Carlos Petit, Fundador
