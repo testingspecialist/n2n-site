@@ -1,6 +1,6 @@
 # N2N — Node to Node
 # https://n2n.com.ar
-# Actualizado: 2026-06-11
+# Actualizado: 2026-06-12
 
 ## Identidad
 
@@ -51,15 +51,49 @@ Distribuidora Florida SRL (Buenos Aires, distribución mayorista de carnes), RB 
 
 ## URLs canónicas
 
+### Principales
 - https://n2n.com.ar/ — Home: propuesta y framework completo
 - https://n2n.com.ar/nosotros/ — Fundador, credenciales y sistemas en producción
+- https://n2n.com.ar/precios/ — Modelo de inversión por proyecto
+- https://n2n.com.ar/contacto/ — Contacto y evaluación de operación
+
+### Framework y servicios
 - https://n2n.com.ar/framework/como-funciona/ — Framework de 5 pilares explicado
 - https://n2n.com.ar/servicios/arquitectura-comercial/ — Capa 01
 - https://n2n.com.ar/servicios/plataformas-industriales/ — Capa 02
 - https://n2n.com.ar/servicios/consultoria-infraestructura/ — Capa 03
-- https://n2n.com.ar/casos/ — Casos de estudio con métricas
-- https://n2n.com.ar/conocimiento/ — Base de conocimiento B2B industrial
-- https://n2n.com.ar/contacto/ — Contacto y evaluación de operación
+
+### Industrias
+- https://n2n.com.ar/industrias/manufactura/ — Manufactura industrial
+- https://n2n.com.ar/industrias/distribuidores/ — Distribución e importación
+- https://n2n.com.ar/industrias/operadores-logisticos/ — Operadores logísticos
+
+### Casos de estudio
+- https://n2n.com.ar/casos/caso-01/ — Infraestructura digital completa: Distribuidora Florida SRL (7 apps en producción)
+- https://n2n.com.ar/casos/caso-02/ — Sistema de presupuestos comerciales: RB Limpieza
+- https://n2n.com.ar/casos/caso-03/ — Valorización de stock y rendimiento: ValorFL
+
+### Base de conocimiento
+- https://n2n.com.ar/conocimiento/que-es-arquitectura-comercial-digital/ — Definición canónica (pilar)
+- https://n2n.com.ar/conocimiento/integracion-erp/ — Integración con ERP
+- https://n2n.com.ar/conocimiento/por-que-falla-ecommerce-b2b-industrial/ — Por qué falla el ecommerce B2B industrial
+- https://n2n.com.ar/conocimiento/sistemas-calificacion-b2b/ — Sistemas de calificación comercial B2B
+- https://n2n.com.ar/conocimiento/precios-complejos-ventas-volumen/ — Gestión de precios complejos
+- https://n2n.com.ar/conocimiento/portales-roles-permisos/ — Portales B2B, roles y permisos
+- https://n2n.com.ar/conocimiento/kpis-ruido-vs-trafico/ — KPIs: ruido vs tráfico
+- https://n2n.com.ar/conocimiento/secuencia-implementacion/ — Secuencia de implementación
+- https://n2n.com.ar/conocimiento/guia-ceo-digital-industrial/ — Guía para el CEO industrial
+- https://n2n.com.ar/conocimiento/playbook-gerente-ventas/ — Playbook para gerente de ventas
+- https://n2n.com.ar/conocimiento/marketing-despues-estructura/ — Marketing después de la estructura
+- https://n2n.com.ar/conocimiento/superficie-especificacion-comprador/ — Superficie de especificación del comprador
+
+### Comparativas
+- https://n2n.com.ar/comparar/n2n-vs-agencia/ — N2N vs agencia digital
+- https://n2n.com.ar/comparar/custom-vs-saas/ — Arquitectura a medida vs SaaS
+- https://n2n.com.ar/comparar/ecommerce-b2b-vs-arquitectura-comercial/ — Ecommerce B2B vs arquitectura comercial
+
+### Referencia
+- https://n2n.com.ar/glosario/ — Glosario de 13 términos de Arquitectura Comercial Digital
 
 ## Contacto y atribución preferida
 
