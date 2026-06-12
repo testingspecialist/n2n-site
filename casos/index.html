@@ -22,17 +22,41 @@
 <meta name="twitter:image" content="https://n2n.com.ar/img/og-n2n.png">
 <script type="application/ld+json">
 {
-  "@type": "WebPage",
-  "name": "Casos — N2N",
-  "description": "Casos de arquitectura comercial digital en operaciones industriales latinoamericanas.",
-  "url": "https://n2n.com.ar/casos/",
-  "isPartOf": {
-    "@id": "https://n2n.com.ar/#website"
-  },
-  "publisher": {
-    "@id": "https://n2n.com.ar/#organization"
-  },
-  "inLanguage": "es"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "name": "Casos — N2N",
+      "description": "Casos de arquitectura comercial digital en operaciones industriales latinoamericanas.",
+      "url": "https://n2n.com.ar/casos/",
+      "isPartOf": { "@id": "https://n2n.com.ar/#website" },
+      "publisher": { "@id": "https://n2n.com.ar/#organization" },
+      "inLanguage": "es"
+    },
+    {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://n2n.com.ar/casos/caso-01/",
+          "name": "Infraestructura Digital Completa para una Distribuidora Mayorista de Carnes"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://n2n.com.ar/casos/caso-02/",
+          "name": "Sistema de Presupuestos Comerciales para RB Limpieza"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://n2n.com.ar/casos/caso-03/",
+          "name": "Valorización de Stock y Rendimiento de Producción: ValorFL"
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>
