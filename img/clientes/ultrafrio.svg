@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 471.56201 144.74901"
+   role="img"
+   version="1.1"
+   id="svg33"
+   sodipodi:docname="ultrafrio_A_horizontal.svg"
+   width="471.56201"
+   height="144.74901"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   inkscape:export-filename="ultrafrio_A_horizontal.png"
+   inkscape:export-xdpi="95.682007"
+   inkscape:export-ydpi="95.682007"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0827381"
+     inkscape:cx="162.55085"
+     inkscape:cy="105.28862"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g32" />
+  <title
+     id="title1">Ultrafrio · Lockup horizontal</title>
+  <style
+     id="style1">
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&amp;display=swap');
+    .uf-wm  { font-family: 'Barlow', sans-serif; font-weight: 900; letter-spacing: -1.5px; }
+    .uf-tag { font-family: 'Barlow', sans-serif; font-weight: 500; letter-spacing: 5px; }
+  </style>
+  <defs
+     id="defs31">
+    <symbol
+       id="snowflake"
+       viewBox="0 0 100 100">
+      <g
+         transform="translate(50,50)"
+         stroke="#0098d4"
+         stroke-width="6"
+         stroke-linecap="round"
+         fill="none"
+         id="g31">
+        <g
+           id="g5">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line1" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line2" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line3" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line4" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line5" />
+        </g>
+        <g
+           transform="rotate(60)"
+           id="g10">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line6" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line7" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line8" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line9" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line10" />
+        </g>
+        <g
+           transform="rotate(120)"
+           id="g15">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line11" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line12" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line13" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line14" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line15" />
+        </g>
+        <g
+           transform="scale(-1)"
+           id="g20">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line16" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line17" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line18" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line19" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line20" />
+        </g>
+        <g
+           transform="rotate(-120)"
+           id="g25">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line21" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line22" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line23" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line24" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line25" />
+        </g>
+        <g
+           transform="rotate(-60)"
+           id="g30">
+          <line
+             x1="0"
+             y1="0"
+             x2="0"
+             y2="-44"
+             id="line26" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="-10"
+             y2="-26"
+             id="line27" />
+          <line
+             x1="0"
+             y1="-16"
+             x2="10"
+             y2="-26"
+             id="line28" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="-8"
+             y2="-38"
+             id="line29" />
+          <line
+             x1="0"
+             y1="-30"
+             x2="8"
+             y2="-38"
+             id="line30" />
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <g
+     transform="matrix(1.1301328,0,0,1.1301328,-5.0855976,4.5665327)"
+     id="g32">
+    <polygon
+       points="8,90 8,30 60,0 112,30 112,90 60,120 "
+       fill="none"
+       stroke="#003b73"
+       stroke-width="7"
+       stroke-linejoin="miter"
+       id="polygon31" />
+    <path
+       d="m 32,32 v 44 q 0,16 16,16 H 72 Q 88,92 88,76 V 32 H 76 v 42 q 0,8 -6,8 H 50 q -6,0 -6,-8 V 32 Z"
+       fill="#0098d4"
+       id="path31" />
+    <use
+       href="#snowflake"
+       x="48"
+       y="6"
+       width="24"
+       height="24"
+       id="use31"
+       transform="translate(0,5.3091105)" />
+  </g>
+  <text
+     x="153.13298"
+     y="87.066223"
+     class="uf-wm"
+     font-size="70.0682px"
+     fill="#003b73"
+     id="text32"
+     style="stroke-width:1.13013">Ultra<tspan
+   fill="#0098d4"
+   id="tspan32"
+   style="stroke-width:1.13013">frio</tspan></text>
+  <text
+     x="155.39326"
+     y="120.9702"
+     class="uf-tag"
+     font-size="12.4314px"
+     fill="#5e6a71"
+     id="text33"
+     style="stroke-width:1.13013">REFRIGERACION INDUSTRIAL</text>
+</svg>
