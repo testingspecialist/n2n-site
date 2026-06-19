@@ -85,108 +85,70 @@
 </section>
 <section class="section bg-white">
   <div class="container">
-    <div class="prose"><h2>Definición</h2>
-<p>El ecommerce tradicional falla en la industria B2B porque está diseñado para productos estandarizados, precios fijos y compras transaccionales inmediatas, condiciones que rara vez existen en operaciones industriales que venden por volumen.</p>
-<p>El problema no es tecnológico.  
-Es estructural.</p>
-<p>El ecommerce simplifica lo que en industria es complejo por naturaleza.</p>
-<hr>
-<h2>La divergencia estructural</h2>
-<p>El ecommerce tradicional asume:</p>
-<ul>
-<li>Precio público fijo</li>
-<li>Checkout inmediato</li>
-<li>Comprador individual</li>
-<li>SKU estandarizado</li>
-<li>Envío simple</li>
-<li>Pago instantáneo</li>
-</ul>
-<p>La realidad industrial B2B incluye:</p>
-<ul>
-<li>Precios por volumen</li>
-<li>Cotización previa (RFQ)</li>
-<li>Compradores múltiples (ingeniería, compras, finanzas)</li>
-<li>Configuraciones técnicas</li>
-<li>Logística compleja</li>
-<li>Condiciones de pago (30, 60, 90 días)</li>
-</ul>
-<p>Aplicar lógica minorista a industria pesada genera fricción.</p>
-<hr>
-<h2>Comparación estructural</h2>
-<div class="table-wrap"><table><tr><th>Variable</th><th>Ecommerce Tradicional</th><th>Industria B2B</th></tr><tr><td>Precio</td><td>Fijo y visible</td><td>Variable, negociado</td></tr><tr><td>Volumen</td><td>Bajo/medio</td><td>Alto (MOQ)</td></tr><tr><td>Validación técnica</td><td>No requerida</td><td>Requerida</td></tr><tr><td>Proceso</td><td>Checkout directo</td><td>RFQ + aprobación</td></tr><tr><td>Logística</td><td>Estandarizada</td><td>Variable y compleja</td></tr><tr><td>Roles</td><td>Individual</td><td>Multinivel</td></tr></table></div>
-<p>Esta diferencia explica el fallo sistemático.</p>
-<hr>
-<h2>Patrones comunes de fracaso</h2>
+    <div class="prose">
+<h2>La raíz del problema</h2>
+<p>En una operación industrial, vender no es publicar productos, mostrar un precio y habilitar un carrito. La venta depende de volumen, condiciones comerciales, validación técnica, disponibilidad real, logística, crédito, contratos, aprobaciones internas y coordinación entre varias áreas.</p>
+<p>El ecommerce tradicional nació para otra cosa: producto estandarizado, precio público fijo, comprador individual, checkout inmediato y pago al instante. Son dos lógicas distintas. Cuando se aplica la lógica del retail sobre una operación industrial, el canal digital no simplifica: distorsiona, porque obliga a la empresa a comportarse como algo que no es.</p>
+<p>Por eso muchos proyectos de ecommerce B2B no fracasan por falta de inversión, diseño o tecnología. Fracasan porque intentan digitalizar una operación compleja con una lógica demasiado simple.</p>
+<h2>Dos lógicas que no encajan</h2>
+<table>
+<thead><tr><th>Variable</th><th>Ecommerce tradicional</th><th>Industria B2B</th></tr></thead>
+<tbody>
+<tr><td>Precio</td><td>Fijo y visible</td><td>Variable, negociado o condicionado</td></tr>
+<tr><td>Volumen</td><td>Bajo o medio</td><td>Alto, con mínimos de compra</td></tr>
+<tr><td>Validación técnica</td><td>Generalmente no requerida</td><td>Frecuentemente requerida</td></tr>
+<tr><td>Proceso</td><td>Checkout directo</td><td>Cotización, aprobación o validación previa</td></tr>
+<tr><td>Logística</td><td>Estandarizada</td><td>Variable, compleja o regional</td></tr>
+<tr><td>Roles</td><td>Comprador individual</td><td>Compras, ingeniería, finanzas, operaciones</td></tr>
+<tr><td>Stock</td><td>Simple o centralizado</td><td>Distribuido, crítico o condicionado</td></tr>
+<tr><td>Pago</td><td>Inmediato</td><td>Cuenta corriente, crédito o contrato</td></tr>
+</tbody>
+</table>
+<p>Conviene aclarar algo porque desarma el diagnóstico fácil: la demanda de canal digital existe. Más del 70% de los compradores B2B ya prefiere operar por canales de autogestión. El problema no es que el cliente no quiera comprar online. El problema es que, cuando la tienda no está conectada con el ERP, con el stock real y con las reglas comerciales de la empresa, termina prometiendo lo que la operación no puede cumplir.</p>
+<p>Y no hay mejor forma de mostrarlo que con una operación real.</p>
+<h2>Caso real: Distribuidora Florida</h2>
+<p>Lo que planteo no nace de un modelo teórico. Nace de una operación que conozco desde adentro.</p>
+<p>Distribuidora Florida es un mayorista de carnes con cinco depósitos en el Gran Buenos Aires: Esmeralda, Ruta 26, Sivorí, Haedo y La Tablada. Uno de ellos trabaja a -14 °C. Cuando analicé cómo se controlaba el stock, la operación dependía de exportar información del ERP Mantis a Excel, depósito por depósito, y reconciliar todo manualmente.</p>
+<h3>El síntoma</h3>
+<p>Ninguna lógica de catálogo plano sobrevive a una operación así.</p>
+<p>El stock no estaba en un solo lugar. Estaba distribuido entre cinco depósitos, con alta rotación, condiciones físicas distintas y movimiento constante. Cada sábado, la operación se detenía durante cinco horas para consolidar el inventario manualmente.</p>
+<p>Si encima se hubiera montado un ecommerce sobre esa base, el sistema habría mostrado a los clientes un stock que nadie podía garantizar. Es el fracaso por desconexión operativa apareciendo incluso antes de tener una tienda online.</p>
+<h3>La corrección</h3>
+<p>Por eso no empecé por el canal de venta. Empecé por la base.</p>
+<p>Diseñé StockFL, un sistema de control de stock crítico que toma los archivos exportados desde Mantis y actualiza el inventario de cada depósito en tiempo real, sin depender de planillas. Le sumé alertas de stock mínimo, historial de cargas y carga digital desde tablet para el depósito de frío, donde trabajar con papel no era una opción confiable.</p>
+<p>La lógica fue simple: antes de vender digitalmente, la empresa tenía que saber qué tenía, dónde lo tenía y qué podía prometer.</p>
+<h3>El resultado</h3>
+<p>El cambio no fue cosmético.</p>
+<p>Hoy los cinco depósitos muestran su stock real en tiempo real, desapareció el descalce entre ubicaciones y la consolidación que antes costaba cinco horas cada sábado pasó a cero. El sistema corre solo y el sábado volvió a ser un día productivo.</p>
+<p>Sobre esa base se pudo construir una segunda capa: ValorFL, que el área contable usa todos los días para valorizar stock y medir rendimiento de producción con información auditada y disponible cuando se necesita.</p>
+<p>Recién con esa estructura en pie tiene sentido pensar en un canal digital, porque recién ahí la empresa puede prometer lo que de verdad puede cumplir.</p>
+<h2>Los cuatro patrones de fracaso</h2>
+<p>El caso de Florida muestra el más grave de cuatro patrones típicos en los que la lógica retail rompe una operación industrial. Conviene reconocerlos a todos.</p>
 <h3>1. Ilusión de catálogo</h3>
-<p>Subir productos a una plantilla ecommerce no resuelve:</p>
-<ul>
-<li>Compatibilidades</li>
-<li>Aplicaciones</li>
-<li>Restricciones técnicas</li>
-</ul>
-<p>Genera consultas imprecisas.</p>
-<hr>
+<p>El error más común es creer que subir productos a una plantilla equivale a digitalizar la venta. En la industria, el producto no siempre se explica solo: depende de compatibilidades, aplicaciones, medidas, usos específicos o restricciones técnicas. Cuando esa información no está bien estructurada, el ecommerce no simplifica la compra; genera consultas imprecisas, pedidos mal interpretados y más trabajo comercial del que había antes.</p>
 <h3>2. Distorsión de precios</h3>
-<p>Mostrar precios simplificados provoca:</p>
-<ul>
-<li>Expectativas irreales</li>
-<li>Conflictos contractuales</li>
-<li>Exposición de margen</li>
-</ul>
-<hr>
+<p>El segundo problema aparece cuando se publican precios simplificados en operaciones donde el precio real depende del cliente, el volumen, el contrato, la zona, la lista vigente o una negociación previa. Mostrar un precio fijo en ese contexto crea expectativas irreales, conflictos contractuales y exposición innecesaria del margen. El canal termina mostrando una versión incompleta de la realidad comercial, y esa versión se vuelve en contra de la operación.</p>
 <h3>3. Checkout prematuro</h3>
-<p>Permitir compra inmediata cuando:</p>
-<ul>
-<li>No se validó capacidad</li>
-<li>No se confirmó especificación</li>
-<li>No se aprobó contrato</li>
-</ul>
-<p>Provoca cancelaciones y correcciones manuales.</p>
-<hr>
-<h3>4. Desconexión con ERP</h3>
-<p>Cuando el ecommerce no refleja:</p>
-<ul>
-<li>Stock real</li>
-<li>Capacidad productiva</li>
-<li>Plazos de entrega</li>
-<li>Condiciones comerciales</li>
-</ul>
-<p>La plataforma promete lo que la operación no puede cumplir.</p>
-<hr>
-<h2>Caso modelado</h2>
-<h3>Situación inicial</h3>
-<p>Distribuidor industrial implementa ecommerce estándar.</p>
-<h3>Resultado</h3>
-<ul>
-<li>Aumento de tráfico.</li>
-<li>Incremento de pedidos inviables.</li>
-<li>Conflictos de precios.</li>
-<li>Sobrecarga administrativa.</li>
-</ul>
-<h3>Corrección</h3>
-<ul>
-<li>Eliminación de checkout directo.</li>
-<li>Implementación de flujo de cotización.</li>
-<li>Visibilidad condicional de precios.</li>
-<li>Integración controlada con ERP.</li>
-</ul>
-<p>Resultado: menor volumen de consultas, mayor viabilidad comercial.</p>
-<hr>
-<h2>Cuándo el ecommerce puede funcionar</h2>
-<p>Puede funcionar cuando:</p>
-<ul>
-<li>Producto estandarizado.</li>
-<li>Precio fijo.</li>
-<li>Volumen bajo.</li>
-<li>Baja complejidad técnica.</li>
-</ul>
-<p>Escenarios poco frecuentes en industria pesada.</p>
-<hr>
+<p>El tercer patrón es permitir la compra inmediata como si siempre fuera una mejora. En muchos negocios industriales, antes de aceptar un pedido hay que validar capacidad, confirmar especificaciones, revisar disponibilidad o aprobar condiciones. Si el checkout aparece antes de esas validaciones, el pedido entra rápido, pero después la operación tiene que desarmarlo: cancelaciones, correcciones manuales y fricción interna.</p>
+<h3>4. Desconexión con el ERP</h3>
+<p>El cuarto es el más grave, y es el que vimos en Florida. Cuando el ecommerce no refleja el stock real, la capacidad productiva, los plazos ni las condiciones comerciales vigentes, la plataforma promete cosas que la operación no puede cumplir. El canal digital deja de ser una herramienta de crecimiento y se convierte en una fábrica de errores, reclamos y retrabajo.</p>
+<h2>Por qué falla distinto en LatAm</h2>
+<p>En Argentina y en Latinoamérica hay una capa adicional que muchas plataformas globales no contemplan.</p>
+<p>La operación rara vez corre sobre un sistema único y perfectamente integrado. Puede depender de Mantis, Tango, Bejerman, SAP Business One, Odoo, ERPNext o desarrollos internos, cada uno con su propia lógica. Un ecommerce genérico no refleja esa realidad por sí solo. La integración real es lo que separa prometer de cumplir.</p>
+<p>A eso se suma que el stock casi nunca vive en un solo almacén. Está repartido entre depósitos, cámaras y centros de distribución con condiciones distintas. En industrias con frío, vencimientos o logística regional, un canal que no representa esa complejidad termina mostrando una realidad que no existe.</p>
+<p>También está la forma concreta de vender. En la industria no siempre se vende "una unidad". Se vende por caja, por peso, por bulto, por mínimo de compra, por lista o por zona. El catálogo pensado para retail asume una simplicidad que esta operación no tiene.</p>
+<p>Ignorar cualquiera de estas tres capas —el ERP real, el stock distribuido y la unidad comercial concreta— es la forma más rápida de hacer fracasar un proyecto digital en este mercado.</p>
+<h2>Cuándo el ecommerce tradicional sí funciona</h2>
+<p>Nada de esto significa que el ecommerce tradicional no sirva nunca. Funciona, y bien, cuando el producto es estandarizado, el precio es fijo, el volumen es bajo o medio, la logística es simple y la validación técnica casi no existe.</p>
+<p>Ese escenario existe. Lo que pasa es que no es el común en industria pesada, distribución mayorista o B2B operativo.</p>
+<p>Cuando la complejidad comercial es baja, una tienda estándar alcanza. Cuando la operación depende de reglas, stock, contratos, listas, aprobaciones y logística, hace falta otra arquitectura.</p>
 <h2>Conclusión</h2>
-<p>El ecommerce tradicional no falla por mala implementación.</p>
-<p>Falla porque su lógica es incompatible con la estructura comercial industrial.</p>
-<p>La solución no es optimizar el ecommerce.</p>
-<p>Es diseñar Arquitectura Comercial Digital.</p></div>
+<p>Mi conclusión es simple: el ecommerce tradicional no falla por estar mal implementado. Falla porque fue pensado con una lógica que no encaja con la estructura comercial de una empresa industrial.</p>
+<p>En una operación real no alcanza con tener productos cargados, un carrito y una pasarela de pago. Hay listas de precios, stock variable, clientes con condiciones distintas, vendedores, administración, logística, ERP, autorizaciones y márgenes que no se resuelven con una tienda online común.</p>
+<p>Por eso la solución no es "mejorar el ecommerce" como si el problema fuera visual, técnico o de conversión. La solución es diseñar una Arquitectura Comercial Digital: un sistema donde el canal digital refleje la operación real de la empresa y trabaje conectado con sus reglas comerciales, su stock, sus procesos y su forma concreta de vender.</p>
+<p>Primero la estructura. Después, el canal.</p>
+<p>En ese orden —y no al revés— lo digital empieza a multiplicar en lugar de romper.</p>
+</div>
     <div style="margin-top:var(--s10);padding-top:var(--s8);border-top:1px solid var(--border);display:flex;gap:var(--s4);flex-wrap:wrap">
       <a href="/conocimiento/" class="btn btn--ghost">← Volver a Conocimiento</a>
       <a href="/contacto/" class="btn btn--primary">Evaluar mi operación →</a>
