@@ -36,10 +36,20 @@ CNAME            # Dominio custom (n2n.com.ar)
 
 ## Deploy
 
-Push a la rama principal → publicación automática vía GitHub Pages (~2 minutos).
+Push a master → publicación automática vía GitHub Pages (~2 minutos). El repo público ES producción.
 
 ```bash
 git add .
-git commit -m "contenido: actualización"
-git push
+git commit -m "contenido: descripcion"
+git push origin master
 ```
+
+## Notas
+- Fuente de verdad única — no hay copia en servidor Hetzner
+- Sin Hugo, sin generador — HTML directo editado a mano
+- Analytics: Umami ID 05b64f33-b9ae-4ffa-b068-8a2dacff6e33
+- AI crawlers permitidos (robots.txt + llms.txt)
+- Master = producción
+
+## Desarrollado por
+N2N — https://n2n.com.ar
