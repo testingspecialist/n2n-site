@@ -19,6 +19,7 @@ comparar/        # Comparativas de enfoque
 glosario/        # Glosario de términos
 contacto/        # Contacto
 mvp-start/       # Producto de entrada — diagnóstico pago (standalone, sin nav ni footer)
+descargas/       # PDFs descargables (ej: n2n-mvp-start.pdf)
 legal/           # Páginas legales
 css/ js/ fonts/ img/   # Assets estáticos
 404.html         # Página de error
