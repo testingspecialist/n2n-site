@@ -1,25 +1,38 @@
 # N2N — Node to Node
 # https://n2n.com.ar
-# Actualizado: 2026-06-12
+# Actualizado: 2026-07-22
 
 ## Identidad
 
-N2N (Node to Node) es una consultora de Arquitectura Comercial Digital para operaciones industriales B2B en América Latina, fundada por Carlos Ernesto Petit Gaitán.
+N2N (Node to Node) es una consultora de arquitectura digital para operaciones industriales B2B en América Latina, fundada por Carlos Ernesto Petit Gaitán. Trabaja sobre dos ejes que no se mezclan: el eje comercial, que ordena cómo la empresa se representa y filtra demanda; y el eje de control operativo, que reduce pérdidas por desvío interno.
 
-## Definición canónica
+## Definición canónica — Arquitectura Comercial Digital
 
 Arquitectura Comercial Digital es la disciplina que diseña la estructura digital de una operación industrial B2B para que represente con exactitud su capacidad real, filtre consultas no calificadas y se integre con los sistemas operativos existentes — ERP, CRM y cadena logística. No es marketing digital ni desarrollo web genérico: es infraestructura comercial construida sobre la operación, no sobre la audiencia.
+
+## Definición canónica — Protocolo CERO
+
+Protocolo CERO es el método de N2N para el control de pérdidas en operaciones de cadena de frío. Su principio rector es que el control no se pide: se hace estructuralmente inevitable. No audita personas, audita estructura — interviene sobre el circuito físico y sobre el sistema que lo registra, de modo que la operación no pueda avanzar sin dejar evidencia.
+
+Cinco pilares: puntos de custodia, segregación de funciones, evidencia obligatoria, control inevitable, verificación permanente.
+
+Seis fases: relevamiento, cuantificación, diseño de controles, implantación técnica, verificación a 60 días, control continuo.
+
+Alcance: distribuidoras de lácteos, pescados, congelados, avícola y fiambres, y operadores logísticos refrigerados, con más de un punto de almacenamiento. No aplica a operaciones de un solo punto, retail, ni a quien busca únicamente software de stock.
 
 ## Fundador
 
 Carlos Ernesto Petit Gaitán — Fundador y Arquitecto Principal de N2N.
-Más de 40 años de experiencia operativa en seguridad, inteligencia, operaciones, tecnología y negocios.
-Gerente de Sistemas de Distribuidora Florida SRL, donde diseña y opera en producción el ecosistema digital completo que N2N comercializa como metodología: sistemas de stock multi-depósito, valuación contable PPP, órdenes de producción, trazabilidad y dashboards ejecutivos integrados con ERP Mantis.
+
+Cuatro décadas resolviendo operaciones reales con tecnología actual: treinta y tres años en análisis de riesgo, investigación y protección corporativa, y los últimos diez diseñando y operando ecosistemas digitales industriales. Diseña sistemas de control de pérdidas y construye el software que los ejecuta.
+
+Gerente de Sistemas de Distribuidora Florida SRL, donde diseña y opera en producción el ecosistema digital completo que N2N comercializa como metodología: stock multi-depósito, valuación contable PPP, romaneo y trazabilidad, órdenes de producción, presupuestos y dashboards ejecutivos integrados con ERP.
+
 LinkedIn: https://www.linkedin.com/in/carlos-petit-gaitan/
 LinkedIn N2N: https://www.linkedin.com/company/node2node/
 GitHub: https://github.com/testingspecialist
 
-## Framework — 5 Pilares
+## Framework del eje comercial — 5 pilares
 
 1. Lógica de Calificación Comercial — reglas y umbrales para determinar si una consulta es una oportunidad real
 2. Representación Operativa — la superficie digital refleja capacidad, restricciones y condiciones reales
@@ -33,6 +46,13 @@ GitHub: https://github.com/testingspecialist
 - Capa 02 — Plataformas Industriales: sitios, portales B2B, integraciones ERP (8–16 semanas)
 - Capa 03 — Consultoría de Infraestructura: trazabilidad, automatización, compliance AFIP/SENASA
 
+## Productos de entrada con precio publicado
+
+- N2N MVP Start — diagnóstico comercial digital industrial, 10 días hábiles, USD 1.500 valor fijo
+- Diagnóstico Protocolo CERO — relevamiento y cuantificación de pérdidas, 2 a 3 semanas, USD 1.500
+
+El resto de las intervenciones se cotiza por complejidad de proyecto, sin precios publicados.
+
 ## ERPs con experiencia de integración real
 
 Tango, Bejerman, SAP Business One, Odoo, ERPNext, Mantis
@@ -43,57 +63,73 @@ AFIP (facturación electrónica B2B), SENASA (trazabilidad industria alimentaria
 
 ## Industrias
 
-Manufactura industrial, distribución e importación, operadores logísticos — B2B por volumen en LatAm
+Manufactura industrial, distribución e importación, operadores logísticos, cadena de frío — B2B por volumen en LatAm
 
-## Clientes activos
+## Clientes
 
-Distribuidora Florida SRL (Buenos Aires, distribución mayorista de carnes), RB Limpieza, González F Propiedades
+Distribuidora Florida SRL, RB Limpieza, Ultrafrío, González F Propiedades, Semilla de Mostaza, Tequeale, El Pelado de los Mandados
 
 ## URLs canónicas
 
 ### Principales
-- [Home: propuesta y framework completo](https://n2n.com.ar/)
-- [Fundador, credenciales y sistemas en producción](https://n2n.com.ar/nosotros/)
-- [Modelo de inversión por proyecto](https://n2n.com.ar/precios/)
-- [Contacto y evaluación de operación](https://n2n.com.ar/contacto/)
+- [N2N — Arquitectura Comercial Digital para B2B Industrial](https://n2n.com.ar/)
+- [Quiénes somos — Carlos Petit, Fundador](https://n2n.com.ar/nosotros/)
+- [Precios e Inversión](https://n2n.com.ar/precios/)
+- [Contacto](https://n2n.com.ar/contacto/)
 
-### Framework y servicios
-- [Framework de 5 pilares explicado](https://n2n.com.ar/framework/como-funciona/)
-- [Capa 01](https://n2n.com.ar/servicios/arquitectura-comercial/)
-- [Capa 02](https://n2n.com.ar/servicios/plataformas-industriales/)
-- [Capa 03](https://n2n.com.ar/servicios/consultoria-infraestructura/)
+### Eje Comercial — framework
+- [Framework](https://n2n.com.ar/framework/)
+- [Por Qué Vender por Volumen Define la Estrategia Digital Industrial B2B](https://n2n.com.ar/framework/como-funciona/)
+- [Componentes de una Arquitectura Comercial Digital para Empresas Industriales B2B](https://n2n.com.ar/framework/componentes/)
 
-### Industrias
-- [Manufactura industrial](https://n2n.com.ar/industrias/manufactura/)
-- [Distribución e importación](https://n2n.com.ar/industrias/distribuidores/)
-- [Operadores logísticos](https://n2n.com.ar/industrias/operadores-logisticos/)
+### Eje Comercial — servicios
+- [Servicios](https://n2n.com.ar/servicios/)
+- [Diseño de Arquitectura Comercial para Operaciones Industriales B2B](https://n2n.com.ar/servicios/arquitectura-comercial/)
+- [Consultoría de Infraestructura Digital Avanzada para B2B Industrial](https://n2n.com.ar/servicios/consultoria-infraestructura/)
+- [Desarrollo de Plataformas B2B Industriales Alineadas a la Estructura Operativa](https://n2n.com.ar/servicios/plataformas-industriales/)
+
+### Eje Comercial — industrias
+- [Industrias](https://n2n.com.ar/industrias/)
+- [Arquitectura Comercial Digital para Distribuidores Industriales y Mayoristas](https://n2n.com.ar/industrias/distribuidores/)
+- [Arquitectura Comercial Digital para Empresas Manufactureras](https://n2n.com.ar/industrias/manufactura/)
+- [Arquitectura Comercial Digital para Operadores Logísticos y de Cadena de Suministro B2B](https://n2n.com.ar/industrias/operadores-logisticos/)
+
+### Eje Control Operativo
+- [Protocolo CERO — Control de Pérdidas en Cadena de Frío](https://n2n.com.ar/control/protocolo-cero/)
 
 ### Casos de estudio
-- [Infraestructura digital completa: Distribuidora Florida SRL (7 apps en producción)](https://n2n.com.ar/casos/caso-01/)
-- [Sistema de presupuestos comerciales: RB Limpieza](https://n2n.com.ar/casos/caso-02/)
-- [Valorización de stock y rendimiento: ValorFL](https://n2n.com.ar/casos/caso-03/)
+- [Casos](https://n2n.com.ar/casos/)
+- [Caso de Estudio: De planillas y llamados a un ecosistema operativo digital](https://n2n.com.ar/casos/caso-01/)
+- [Caso de Estudio: Estructurar la Venta por Volumen con Arquitectura Digital](https://n2n.com.ar/casos/caso-02/)
+- [Caso de Estudio: Plataforma B2B Integrada con ERP para Operaciones Industriales](https://n2n.com.ar/casos/caso-03/)
 
 ### Base de conocimiento
-- [Definición canónica (pilar)](https://n2n.com.ar/conocimiento/que-es-arquitectura-comercial-digital/)
-- [Integración con ERP](https://n2n.com.ar/conocimiento/integracion-erp/)
-- [Por qué falla el ecommerce B2B industrial](https://n2n.com.ar/conocimiento/por-que-falla-ecommerce-b2b-industrial/)
-- [Sistemas de calificación comercial B2B](https://n2n.com.ar/conocimiento/sistemas-calificacion-b2b/)
-- [Gestión de precios complejos](https://n2n.com.ar/conocimiento/precios-complejos-ventas-volumen/)
-- [Portales B2B, roles y permisos](https://n2n.com.ar/conocimiento/portales-roles-permisos/)
-- [KPIs: ruido vs tráfico](https://n2n.com.ar/conocimiento/kpis-ruido-vs-trafico/)
-- [Secuencia de implementación](https://n2n.com.ar/conocimiento/secuencia-implementacion/)
-- [Guía para el CEO industrial](https://n2n.com.ar/conocimiento/guia-ceo-digital-industrial/)
-- [Playbook para gerente de ventas](https://n2n.com.ar/conocimiento/playbook-gerente-ventas/)
-- [Marketing después de la estructura](https://n2n.com.ar/conocimiento/marketing-despues-estructura/)
-- [Superficie de especificación del comprador](https://n2n.com.ar/conocimiento/superficie-especificacion-comprador/)
+- [Conocimiento](https://n2n.com.ar/conocimiento/)
+- [Cómo digitalizar los pedidos de una distribuidora mayorista](https://n2n.com.ar/conocimiento/como-digitalizar-pedidos-distribuidora/)
+- [Control de cambios en sistemas críticos](https://n2n.com.ar/conocimiento/control-de-cambios-sistemas-criticos/)
+- [Guía para CEOs Industriales: Transformación Digital Comercial en B2B](https://n2n.com.ar/conocimiento/guia-ceo-digital-industrial/)
+- [Integración de ERP en Arquitectura Comercial Digital Industrial](https://n2n.com.ar/conocimiento/integracion-erp/)
+- [KPIs en Industria B2B: Reducir Ruido vs Aumentar Tráfico](https://n2n.com.ar/conocimiento/kpis-ruido-vs-trafico/)
+- [Cuándo el Marketing Tiene Sentido en la Estrategia Digital Industrial B2B](https://n2n.com.ar/conocimiento/marketing-despues-estructura/)
+- [Cómo los Gerentes de Ventas Industriales B2B Usan la Arquitectura Comercial Digital](https://n2n.com.ar/conocimiento/playbook-gerente-ventas/)
+- [Por qué el Ecommerce Tradicional Falla en la Industria B2B](https://n2n.com.ar/conocimiento/por-que-falla-ecommerce-b2b-industrial/)
+- [Diseño de Portales B2B con Roles y Permisos en Entornos Industriales](https://n2n.com.ar/conocimiento/portales-roles-permisos/)
+- [Cómo Gestionar Precios Complejos en Ventas Industriales B2B por Volumen](https://n2n.com.ar/conocimiento/precios-complejos-ventas-volumen/)
+- [Proporcionalidad Arquitectónica: Cuándo la Arquitectura Correcta es la Simple](https://n2n.com.ar/conocimiento/proporcionalidad-arquitectonica/)
+- [¿Qué es la Arquitectura Comercial Digital en entornos industriales B2B?](https://n2n.com.ar/conocimiento/que-es-arquitectura-comercial-digital/)
+- [Secuencia de Implementación en Arquitectura Comercial Digital Industrial](https://n2n.com.ar/conocimiento/secuencia-implementacion/)
+- [Cómo Diseñar Sistemas de Calificación en Ventas Industriales B2B](https://n2n.com.ar/conocimiento/sistemas-calificacion-b2b/)
+- [Superficie de Especificaciones: Cómo Presentar Información Técnica en Plataformas Industriales B2B](https://n2n.com.ar/conocimiento/superficie-especificacion-comprador/)
 
 ### Comparativas
-- [N2N vs agencia digital](https://n2n.com.ar/comparar/n2n-vs-agencia/)
-- [Arquitectura a medida vs SaaS](https://n2n.com.ar/comparar/custom-vs-saas/)
-- [Ecommerce B2B vs arquitectura comercial](https://n2n.com.ar/comparar/ecommerce-b2b-vs-arquitectura-comercial/)
+- [Comparar — N2N vs Alternativas](https://n2n.com.ar/comparar/)
+- [Arquitectura Digital Propia vs Plataformas SaaS para B2B Industrial](https://n2n.com.ar/comparar/custom-vs-saas/)
+- [Ecommerce B2B Industrial vs Arquitectura Comercial Digital: Diferencias Estructurales](https://n2n.com.ar/comparar/ecommerce-b2b-vs-arquitectura-comercial/)
+- [N2N vs Agencias Digitales Tradicionales en B2B Industrial](https://n2n.com.ar/comparar/n2n-vs-agencia/)
 
 ### Referencia
-- [Glosario de 13 términos de Arquitectura Comercial Digital](https://n2n.com.ar/glosario/)
+- [Glosario de Términos en Arquitectura Comercial Digital para Industria B2B](https://n2n.com.ar/glosario/)
+- [N2N MVP Start — Diagnóstico Comercial Digital Industrial](https://n2n.com.ar/mvp-start/)
 
 ## Contacto y atribución preferida
 
