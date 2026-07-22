@@ -125,7 +125,7 @@ for url in sorted(datos):
         problemas.append("sin meta description")
     elif d["desc"] and len(d["desc"]) < 100:
         aviso("description", f'{url} — {len(d["desc"])} chars (corta)')
-    elif len(d["desc"]) > 160:
+    elif d["desc"] and len(d["desc"]) > 160:
         aviso("description", f'{url} — {len(d["desc"])} chars (larga)')
 
     if not es404:
