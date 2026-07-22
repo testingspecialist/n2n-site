@@ -19,7 +19,8 @@ comparar/        # Comparativas de enfoque
 glosario/        # Glosario de términos
 contacto/        # Contacto
 mvp-start/       # Producto de entrada — diagnóstico pago (standalone, sin nav ni footer)
-descargas/       # PDFs descargables (ej: n2n-mvp-start.pdf)
+control/         # Eje Control Operativo — Protocolo CERO (standalone, fuera del nav)
+descargas/       # PDFs descargables (n2n-mvp-start.pdf, n2n-protocolo-cero.pdf)
 legal/           # Páginas legales
 css/ js/ fonts/ img/   # Assets estáticos
 404.html         # Página de error
@@ -33,25 +34,26 @@ CNAME            # Dominio custom (n2n.com.ar)
 | Sitio | HTML/CSS/JS estático |
 | Hosting | GitHub Pages |
 | CDN / DNS | Cloudflare |
-| Analytics | Umami |
+| Analytics | Google Analytics 4 (G-07T9PCBG7P) |
 | Formularios | Web3Forms |
 
 ## Deploy
 
-Push a master → publicación automática vía GitHub Pages (~2 minutos). El repo público ES producción.
+Push a main → publicación automática vía GitHub Pages (~2 minutos). El repo público ES producción.
 
 ```bash
 git add .
 git commit -m "contenido: descripcion"
-git push origin master
+git push origin main
 ```
 
 ## Notas
 - Fuente de verdad única — no hay copia en servidor Hetzner
 - Sin Hugo, sin generador — HTML directo editado a mano
-- Analytics: Umami ID 05b64f33-b9ae-4ffa-b068-8a2dacff6e33
+- Analytics: Google Analytics 4 — G-07T9PCBG7P
 - AI crawlers permitidos (robots.txt + llms.txt)
-- Master = producción
+- main = producción
+- PDFs generados con WeasyPrint mediante scripts versionados en la raiz del repo
 
 ## Desarrollado por
 N2N — https://n2n.com.ar
