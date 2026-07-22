@@ -61,7 +61,7 @@ print(f"Archivos .html:  {len(paginas)}")
 
 criticos = ["robots.txt", "sitemap.xml", "CNAME", "llms.txt", "404.html",
             "css/main.css", "js/main.js", "fonts/Outfit-Variable.woff2",
-            "img/og-n2n.png", "img/favicon.ico", "img/favicon.svg"]
+            "img/og-n2n.jpg", "img/favicon.ico", "img/favicon.svg"]
 for c in criticos:
     ok = (RAIZ / c).is_file()
     print(f"  {'OK  ' if ok else 'FALTA'}  {c}")
