@@ -55,5 +55,28 @@ git push origin main
 - main = producción
 - PDFs generados con WeasyPrint mediante scripts versionados en la raiz del repo
 
+## Criterio editorial — titles y metadatos
+
+- `<title>` de maximo 62 caracteres. Google trunca alrededor de los 60 y un
+  title cortado rompe la linea clickeable del resultado.
+- Sin sufijo de marca en el title. Agregar `— N2N` consume 7 de los 60
+  caracteres disponibles y no aporta diferenciacion entre resultados propios.
+- Sin capitalizacion tipo titulo: el espanol no la usa y ocupa mas ancho visual
+  en el SERP.
+- `og:title` y `twitter:title` siempre sincronizados con `<title>`. Si divergen,
+  el sitio dice cosas distintas segun el canal.
+- El `headline` del JSON-LD NO sigue al `<title>`: se alinea con el `<h1>` de la
+  pagina, que es el titulo real del articulo.
+- Las `meta description` largas quedan como aviso aceptado del diagnostico. El
+  rango 120-158 es una referencia, no un fallo: Google reescribe la description
+  en la mayoria de los resultados.
+
+## Scripts en la raiz
+
+| Script | Funcion |
+|---|---|
+| `diagnostico_sitio_v2.py` | Auditor read-only del sitio. Correr antes de cada commit. |
+| `acortar_titles_v1.py` | Acorto 25 titles que se truncaban en SERP y sincronizo og:title / twitter:title. Idempotente. |
+
 ## Desarrollado por
 N2N — https://n2n.com.ar
