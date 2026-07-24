@@ -73,10 +73,22 @@ git push origin main
 
 ## Scripts en la raiz
 
+Auditor vigente: `diagnostico_sitio_v3.py`. Correr antes de cada commit.
+
 | Script | Funcion |
 |---|---|
-| `diagnostico_sitio_v2.py` | Auditor read-only del sitio. Correr antes de cada commit. |
-| `acortar_titles_v1.py` | Acorto 25 titles que se truncaban en SERP y sincronizo og:title / twitter:title. Idempotente. |
+| `diagnostico_sitio_v3.py` | Auditor read-only vigente. Umbrales alineados al criterio editorial (title <= 62, description 120-158), auditoria de sincronizacion de og y twitter, robots.txt completo. |
+| `diagnostico_sitio_v2.py` | Auditor anterior. Se conserva para comparar salidas. Umbrales 60 / 100-160 y sin chequeo de sincronizacion. |
+| `acortar_titles_v1.py` | Acorto 25 titles que se truncaban en SERP y sincronizo og:title / twitter:title. |
+| `reescribir_descriptions_hubs_v1.py` | Reescribio las 7 descriptions cortas de las hub pages al rango 120-158. |
+| `exportar_descriptions_largas_v1.py` | Read-only. Vuelca a Markdown las descriptions que superan el maximo, para trabajarlas fuera del repo. |
+| `aplicar_descriptions_largas_v1.py` | Reescribio 28 descriptions largas al rango y sincronizo og y twitter. |
+| `insertar_diagnosticos_precios_v1.py` | Inserto en /precios/ el bloque con las dos entradas de precio fijo. Saco a /mvp-start/ y /control/protocolo-cero/ de huerfanas. |
+| `agregar_twitter_nosotros_v1.py` | Agrego twitter:title y twitter:description a /nosotros/, la unica pagina que no los tenia. |
+
+Todos los scripts de escritura siguen el mismo patron: backup verificable,
+validacion sin escribir, escritura, verificacion posterior. Son idempotentes
+y abortan ante cualquier estado inesperado.
 
 ## Desarrollado por
 N2N — https://n2n.com.ar
