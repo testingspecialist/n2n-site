@@ -97,6 +97,7 @@ Auditores read-only, correr antes de cada commit:
 | `anonimizar_casos_a2_v1.py` | Anonimizo caso-03 (razon social y rubro) para que caso-01 no sea reconstruible por cruce. Reescribio title y description de caso-02 y caso-03, que describian casos distintos. Saco la enumeracion de sistemas de la bio en llms.txt. |
 | `diagnostico_estructural_v4.py` | Auditor read-only complementario. Parseo real de HTML, validacion de JSON-LD, jerarquia de headings y accesibilidad, deuda tecnica, y volcado del contenido a TXT para revision semantica. |
 | `corregir_semantica_hubs_v1.py` | Elimino la contradiccion de /casos/ (declaraba casos modelados y a la vez sistemas reales), unifico el h1 de caso-01 al criterio descriptivo de caso-02 y caso-03, y acorto el h1 de /nosotros/ que era una oracion de 113 caracteres. |
+| `diferenciar_h1_intencion_v1.py` | Reescribio 12 h1 que abrian con la misma keyword y competian entre si. Solo la pagina definicional conserva el termino; el resto abre con su propio diferenciador. |
 
 Todos los scripts de escritura siguen el mismo patron: backup verificable,
 validacion sin escribir, escritura, verificacion posterior. Son idempotentes
