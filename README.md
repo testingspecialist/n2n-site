@@ -87,6 +87,7 @@ Auditor vigente: `diagnostico_sitio_v3.py`. Correr antes de cada commit.
 | `agregar_twitter_nosotros_v1.py` | Agrego twitter:title y twitter:description a /nosotros/, la unica pagina que no los tenia. |
 | `reescribir_caso01_control_v1.py` | Reescribio /casos/caso-01/ desde el eje Control: contenido, metadatos en los tres canales y headline JSON-LD. Caso anonimizado a 'un distribuidor de cadena de frio'. |
 | `sincronizar_refs_caso01_v1.py` | Sincronizo las referencias externas a caso-01: card e ItemList de /casos/, linea de llms.txt y lastmod del sitemap. |
+| `anonimizar_casos_a2_v1.py` | Anonimizo caso-03 (razon social y rubro) para que caso-01 no sea reconstruible por cruce. Reescribio title y description de caso-02 y caso-03, que describian casos distintos. Saco la enumeracion de sistemas de la bio en llms.txt. |
 
 Todos los scripts de escritura siguen el mismo patron: backup verificable,
 validacion sin escribir, escritura, verificacion posterior. Son idempotentes
