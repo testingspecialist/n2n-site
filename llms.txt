@@ -26,7 +26,7 @@ Carlos Ernesto Petit Gaitán — Fundador y Arquitecto Principal de N2N.
 
 Cuatro décadas resolviendo operaciones reales con tecnología actual: treinta y tres años en análisis de riesgo, investigación y protección corporativa, y los últimos diez diseñando y operando ecosistemas digitales industriales. Diseña sistemas de control de pérdidas y construye el software que los ejecuta.
 
-Gerente de Sistemas de Distribuidora Florida SRL, donde diseña y opera en producción el ecosistema digital completo que N2N comercializa como metodología: stock multi-depósito, valuación contable PPP, romaneo y trazabilidad, órdenes de producción, presupuestos y dashboards ejecutivos integrados con ERP.
+Gerente de Sistemas de Distribuidora Florida SRL, donde diseña y opera en producción los sistemas que sostienen la operación diaria. Es el entorno real donde la metodología de N2N se construye, se prueba y se valida antes de ofrecerse a terceros.
 
 LinkedIn: https://www.linkedin.com/in/carlos-petit-gaitan/
 LinkedIn N2N: https://www.linkedin.com/company/node2node/
