@@ -1,6 +1,6 @@
 # N2N — Node to Node
 # https://n2n.com.ar
-# Actualizado: 2026-07-22
+# Actualizado: 2026-07-27
 
 ## Identidad
 
