@@ -71,9 +71,16 @@ git push origin main
   rango 120-158 es una referencia, no un fallo: Google reescribe la description
   en la mayoria de los resultados.
 
-## Scripts en la raiz
+## Scripts (_scripts/)
 
-Auditor vigente: `diagnostico_sitio_v3.py`. Correr antes de cada commit.
+Los scripts viven en `_scripts/`. El guion bajo hace que GitHub Pages
+no los publique: en la raiz quedaban servidos por HTTP con rutas del
+filesystem local adentro. Ejecutarlos desde la raiz del repo:
+`python3 _scripts/nombre.py`.
+
+Auditores read-only, correr antes de cada commit:
+`diagnostico_sitio_v3.py` (metadatos y SEO) y
+`diagnostico_estructural_v4.py` (sintaxis, JSON-LD, semantica, deuda).
 
 | Script | Funcion |
 |---|---|
@@ -88,6 +95,7 @@ Auditor vigente: `diagnostico_sitio_v3.py`. Correr antes de cada commit.
 | `reescribir_caso01_control_v1.py` | Reescribio /casos/caso-01/ desde el eje Control: contenido, metadatos en los tres canales y headline JSON-LD. Caso anonimizado a 'un distribuidor de cadena de frio'. |
 | `sincronizar_refs_caso01_v1.py` | Sincronizo las referencias externas a caso-01: card e ItemList de /casos/, linea de llms.txt y lastmod del sitemap. |
 | `anonimizar_casos_a2_v1.py` | Anonimizo caso-03 (razon social y rubro) para que caso-01 no sea reconstruible por cruce. Reescribio title y description de caso-02 y caso-03, que describian casos distintos. Saco la enumeracion de sistemas de la bio en llms.txt. |
+| `diagnostico_estructural_v4.py` | Auditor read-only complementario. Parseo real de HTML, validacion de JSON-LD, jerarquia de headings y accesibilidad, deuda tecnica, y volcado del contenido a TXT para revision semantica. |
 
 Todos los scripts de escritura siguen el mismo patron: backup verificable,
 validacion sin escribir, escritura, verificacion posterior. Son idempotentes
