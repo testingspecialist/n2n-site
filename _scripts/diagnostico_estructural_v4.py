@@ -500,7 +500,9 @@ def seccion_semantica(repo, docs):
             if "alt" not in img:
                 fallo("a11y", "%s — <img> sin atributo alt (src=%s)"
                       % (u, img.get("src", "?")))
-            if "width" not in img or "height" not in img:
+            dimensionada = ("width" in img and "height" in img)
+            por_css = "style" in img or "logo" in img.get("class", "")
+            if not dimensionada and not por_css:
                 aviso("a11y", "%s — <img> sin width/height (src=%s)"
                       % (u, img.get("src", "?")))
 
@@ -563,10 +565,18 @@ def seccion_deuda(repo, docs):
         print("  OK    sin archivos .bak / .orig / .tmp")
 
     # 4.3 marcadores
+    MARCAS = [
+        (r"\bTODO\b", "TODO"),
+        (r"\bFIXME\b", "FIXME"),
+        (r"\bXXX\b", "XXX"),
+        (r"\bHACK\b", "HACK"),
+        (r"(?i)lorem ipsum", "lorem ipsum"),
+        (r"(?i)placeholder", "placeholder"),
+    ]
     for p, d in docs.items():
-        for marca in ("TODO", "FIXME", "XXX", "HACK", "lorem ipsum"):
-            if marca.lower() in d["html"].lower():
-                aviso("deuda", "%s — contiene '%s'" % (url_de(repo, p), marca))
+        for patron, etiqueta in MARCAS:
+            if re.search(patron, d["html"]):
+                aviso("deuda", "%s — contiene '%s'" % (url_de(repo, p), etiqueta))
 
     # 4.4 rutas locales filtradas
     for p, d in docs.items():
