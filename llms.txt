@@ -99,7 +99,7 @@ Distribuidora Florida SRL, RB Limpieza, Ultrafrío, González F Propiedades, Sem
 
 ### Casos de estudio
 - [Casos](https://n2n.com.ar/casos/)
-- [Caso de Estudio: De planillas y llamados a un ecosistema operativo digital](https://n2n.com.ar/casos/caso-01/)
+- [Caso de Estudio: Control de Pérdidas en Cadena de Frío — El Control que No se Puede Saltear](https://n2n.com.ar/casos/caso-01/)
 - [Caso de Estudio: Estructurar la Venta por Volumen con Arquitectura Digital](https://n2n.com.ar/casos/caso-02/)
 - [Caso de Estudio: Plataforma B2B Integrada con ERP para Operaciones Industriales](https://n2n.com.ar/casos/caso-03/)
 
