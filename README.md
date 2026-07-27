@@ -99,6 +99,7 @@ Auditores read-only, correr antes de cada commit:
 | `corregir_semantica_hubs_v1.py` | Elimino la contradiccion de /casos/ (declaraba casos modelados y a la vez sistemas reales), unifico el h1 de caso-01 al criterio descriptivo de caso-02 y caso-03, y acorto el h1 de /nosotros/ que era una oracion de 113 caracteres. |
 | `diferenciar_h1_intencion_v1.py` | Reescribio 12 h1 que abrian con la misma keyword y competian entre si. Solo la pagina definicional conserva el termino; el resto abre con su propio diferenciador. |
 | `cerrar_promesas_control_v1.py` | Sumo al glosario los 5 pilares de Protocolo CERO (cuerpo y JSON-LD), corrigio la description que declaraba 13 terminos en EN/ES/PT-BR sin soporte multilingue, y revirtio el h1 de /conocimiento/ que anunciaba control sin articulos del eje. |
+| `dimensionar_logos_techstrip_v1.py` | Agrego width y height a los 8 logos de la franja de infraestructura de la home, que provocaban salto de layout al cargar. 40x40, el mismo valor que ya fija el CSS. |
 
 Todos los scripts de escritura siguen el mismo patron: backup verificable,
 validacion sin escribir, escritura, verificacion posterior. Son idempotentes
