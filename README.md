@@ -100,6 +100,7 @@ Auditores read-only, correr antes de cada commit:
 | `diferenciar_h1_intencion_v1.py` | Reescribio 12 h1 que abrian con la misma keyword y competian entre si. Solo la pagina definicional conserva el termino; el resto abre con su propio diferenciador. |
 | `cerrar_promesas_control_v1.py` | Sumo al glosario los 5 pilares de Protocolo CERO (cuerpo y JSON-LD), corrigio la description que declaraba 13 terminos en EN/ES/PT-BR sin soporte multilingue, y revirtio el h1 de /conocimiento/ que anunciaba control sin articulos del eje. |
 | `dimensionar_logos_techstrip_v1.py` | Agrego width y height a los 8 logos de la franja de infraestructura de la home, que provocaban salto de layout al cargar. 40x40, el mismo valor que ya fija el CSS. |
+| `reescribir_titles_intencion_v1.py` | Reescribio 19 titles en los tres canales: 8 hubs que no decian nada, 8 que canibalizaban la keyword principal, y 3 con sufijo de marca inconsistente. |
 
 Todos los scripts de escritura siguen el mismo patron: backup verificable,
 validacion sin escribir, escritura, verificacion posterior. Son idempotentes
