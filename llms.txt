@@ -107,6 +107,7 @@ Distribuidora Florida SRL, RB Limpieza, Ultrafrío, González F Propiedades, Sem
 - [Conocimiento](https://n2n.com.ar/conocimiento/)
 - [Cómo digitalizar los pedidos de una distribuidora mayorista](https://n2n.com.ar/conocimiento/como-digitalizar-pedidos-distribuidora/)
 - [Control de cambios en sistemas críticos](https://n2n.com.ar/conocimiento/control-de-cambios-sistemas-criticos/)
+- [Faltante no atribuible: el hueco que nadie puede explicar](https://n2n.com.ar/conocimiento/faltante-no-atribuible/)
 - [Guía para CEOs Industriales: Transformación Digital Comercial en B2B](https://n2n.com.ar/conocimiento/guia-ceo-digital-industrial/)
 - [Integración de ERP en Arquitectura Comercial Digital Industrial](https://n2n.com.ar/conocimiento/integracion-erp/)
 - [KPIs en Industria B2B: Reducir Ruido vs Aumentar Tráfico](https://n2n.com.ar/conocimiento/kpis-ruido-vs-trafico/)
