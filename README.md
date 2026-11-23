@@ -110,3 +110,26 @@ y abortan ante cualquier estado inesperado.
 
 ## Desarrollado por
 N2N — https://n2n.com.ar
+
+---
+
+## Propiedad intelectual y licencia de código abierto
+
+**Copyright © 2026 Carlos Ernesto Petit Gaitán — N2N (Node to Node).**
+
+El código fuente original de este sitio web ha sido creado y desarrollado por **Carlos Ernesto Petit Gaitán**, fundador de **N2N — Arquitectura Comercial Digital**.
+
+Este repositorio se distribuye bajo la **licencia MIT**, permitiendo su utilización, reproducción, modificación, adaptación y distribución, incluso en proyectos comerciales, bajo las condiciones establecidas en dicha licencia.
+
+Toda redistribución del código o de partes sustanciales deberá conservar el aviso original de copyright y el texto correspondiente de la licencia MIT.
+
+La autorización de reutilización no implica renuncia a la autoría ni transferencia de titularidad sobre el código original.
+
+El nombre comercial, la identidad visual, los logotipos y las marcas de N2N no quedan licenciados mediante MIT.
+
+Los contenidos y componentes de terceros mantienen sus respectivos derechos y condiciones de licencia.
+
+**Autor original:** Carlos Ernesto Petit Gaitán  
+**Empresa:** N2N — Node to Node  
+**Web:** https://n2n.com.ar  
+**Licencia:** MIT — ver [LICENSE](LICENSE)
